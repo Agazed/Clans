@@ -1,0 +1,19 @@
+name: Clans
+author: Agazed
+description: Clan system like MCPvP
+website: http://agazed.net
+main: net.agazed.clans.Clans
+version: 1.0
+commands:
+  clan:
+    description: Main command for clans
+    aliases: [clans, cl, c]
+  home:
+    description: Teleport to home
+    aliases: [go, warp]
+  sethome:
+    description: Set your home
+    aliases: [setwarp]
+  delhome:
+    description: Delete your home
+    aliases: [delwarp]
